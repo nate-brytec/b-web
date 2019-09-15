@@ -4,13 +4,13 @@
       <b-container>
         <b-row>
           <b-col sm="12" md="4">
-            <h3>About Us</h3>
             <b-row>
-              <b-col cols="12" class="footer-image"></b-col>
+              <b-col offset="3" cols="6" class="footer-image"></b-col>
             </b-row>
-            <b-row>
+            <b-row class="mb-3">
               <b-col
                 cols="12"
+                class="text-center"
               >We help accelerate agriculture transformation in Tanzania through agricultural development initiatives.</b-col>
             </b-row>
           </b-col>
@@ -60,9 +60,7 @@
       </b-container>
     </footer>
     <div class="copyright">
-      <p class="text-center">
-        Copyright &copy;{{date}} All rights reserved
-      </p>
+      <p class="text-center">Copyright &copy;{{date}} All rights reserved</p>
     </div>
   </div>
 </template>
@@ -89,16 +87,17 @@ export default {
 }
 
 .footer-image {
-  height: 9rem;
-  background-image: url("../static/img/social_logo.jpg");
+  height: 5rem;
+  background-image: url("../static/img/logo.png");
+  background-color: #f7941c;
   background-position: center;
-  background-size: cover;
+  background-size: 9rem;
   background-repeat: no-repeat;
 }
 
 .copyright {
   padding: 1rem;
-  padding-bottom: .4rem;
+  padding-bottom: 0.4rem;
   color: #fafafa;
   background-color: #026939;
   font-weight: bold;
