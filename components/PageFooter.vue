@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mt-5">
     <footer class="page-footer">
       <b-container>
         <b-row>
@@ -59,12 +59,22 @@
         </b-row>
       </b-container>
     </footer>
+    <div class="copyright">
+      <p class="text-center">
+        Copyright &copy;{{date}} All rights reserved
+      </p>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "pagefooter"
+  name: "pagefooter",
+  data() {
+    return {
+      date: new Date().getFullYear()
+    };
+  }
 };
 </script>
 
@@ -85,5 +95,12 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   /* background-color: #f7941c; */
+}
+
+.copyright {
+  padding: 1rem;
+  padding-bottom: .4rem;
+  color: #fafafa;
+  background-color: #026939;
 }
 </style>
