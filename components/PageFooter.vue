@@ -94,7 +94,6 @@ export default {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-color: #f7941c; */
 }
 
 .copyright {
@@ -102,5 +101,6 @@ export default {
   padding-bottom: .4rem;
   color: #fafafa;
   background-color: #026939;
+  font-weight: bold;
 }
 </style>

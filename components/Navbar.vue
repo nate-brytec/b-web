@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <b-navbar toggleable="lg" type="light" variant="light">
+  <div class="mb-5">
+    <b-navbar class="green-nav" toggleable="lg">
       <!-- <b-container> -->
       <b-navbar-brand href="/">
         <img src="../static/img/Logo.png" alt="BRiTEN" width="150" />
@@ -32,7 +32,7 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
             <b-form-input size="sm" class="mr-sm-2" placeholder="Search"></b-form-input>
-            <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
+            <b-button size="sm" class="my-2 my-sm-0" type="submit" variant="warning">Search</b-button>
           </b-nav-form>
         </b-navbar-nav>
       </b-collapse>
@@ -47,5 +47,45 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.green-nav {
+  color: white;
+  background-color: #026939;
+  padding: 0 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: white;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.navbar-nav .nav-item {
+  padding: 0.6rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-nav .nav-item:hover {
+  background-color: #01ce6e5e;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
 </style>
