@@ -79,12 +79,11 @@ export default {
 }
 
 .footer-image {
-  height: 5.3rem;
-  padding: 1rem;
-  background-image: url("../static/img/Logo.png");
+  height: 9rem;
+  background-image: url("../static/img/social_logo.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: #f7941c;
+  /* background-color: #f7941c; */
 }
 </style>
