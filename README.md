@@ -1,6 +1,7 @@
 # britenwebsite
 
 > Official website remake for BRITEN
+> I dunno how 
 
 ## Build Setup
 

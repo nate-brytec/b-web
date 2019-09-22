@@ -24,7 +24,7 @@
           <b-list-group flush>
             <b-list-group-item class="list-heading text-center">
               <h3 class="white">
-                <span class="orange lg-text uppercase">Who</span> We Are
+                <span class="orange uppercase">Who</span> We Are
               </h3>
             </b-list-group-item>
             <b-list-group-item class="flex-column align-items-start">
@@ -42,7 +42,7 @@
           <b-list-group flush>
             <b-list-group-item class="list-heading text-center">
               <h3 class="white">
-                <span class="orange lg-text uppercase">What</span> We Do
+                <span class="orange uppercase">What</span> We Do
               </h3>
             </b-list-group-item>
             <b-list-group-item to="#">
@@ -51,7 +51,9 @@
                   <b-img class="icon" src="../static/icons/growth.png" fluid alt="icon"></b-img>
                 </b-col>
                 <b-col cols="10">
-                  <p class="lead"><span class="green">Business Development</span></p>
+                  <p class="lead">
+                    <span class="green">Business Development</span>
+                  </p>
                 </b-col>
               </b-row>
             </b-list-group-item>
@@ -61,7 +63,9 @@
                   <b-img class="icon" src="../static/icons/plant.png" fluid alt="icon"></b-img>
                 </b-col>
                 <b-col cols="10">
-                  <p class="lead"><span class="green">Study Projects</span></p>
+                  <p class="lead">
+                    <span class="green">Study Projects</span>
+                  </p>
                 </b-col>
               </b-row>
             </b-list-group-item>
@@ -71,7 +75,9 @@
                   <b-img class="icon" src="../static/icons/tractor.png" fluid alt="icon"></b-img>
                 </b-col>
                 <b-col cols="10">
-                  <p class="lead"><span class="green">Service Provision</span></p>
+                  <p class="lead">
+                    <span class="green">Service Provision</span>
+                  </p>
                 </b-col>
               </b-row>
             </b-list-group-item>
@@ -81,7 +87,9 @@
                   <b-img class="icon" src="../static/icons/handshake.png" fluid alt="icon"></b-img>
                 </b-col>
                 <b-col cols="10">
-                  <p class="lead"><span class="green">Market Facilitation</span></p>
+                  <p class="lead">
+                    <span class="green">Market Facilitation</span>
+                  </p>
                 </b-col>
               </b-row>
             </b-list-group-item>
@@ -114,7 +122,7 @@ export default {
   background-image: url("../static/img/happy.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
   background-color: #f7941c;
 }
 
@@ -125,7 +133,7 @@ export default {
 .white {
   color: #fafafa;
 }
-.green{
+.green {
   color: #026939;
   font-weight: bold;
 }
@@ -153,7 +161,7 @@ export default {
 }
 
 .wide-spacing {
-  line-height: 2
+  line-height: 2;
 }
 
 .lg-text {
@@ -161,6 +169,23 @@ export default {
 }
 
 .uppercase {
-text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+/* Custom dropdown styling */
+.dropdown-toggle {
+  background-color: red;
+  border-color: #fff;
+  border-style: solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.dropdown-menu {
+  background-color: #000;
+}
+.dropdown-menu > li > a {
+  color: yellow;
 }
 </style>

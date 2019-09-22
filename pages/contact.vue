@@ -43,7 +43,7 @@
           <b-col cols="10">YouTube</b-col>
         </b-row>
       </b-col>
-      <b-col sm="12" lg="8">
+      <b-col sm="12" lg="8" class="mt-5">
         <div>
           <b-embed
             type="iframe"
@@ -55,10 +55,12 @@
       </b-col>
     </b-row>
     <b-row class="form-div">
-      <b-col cols="4">
-        <h4 class="green text-right">Or you can write to us and we will get back to you</h4>
+      <b-col sm="12" md="6" offset-md="3">
+        <h4 v-if="show" class="green text-center">Or you can write to us and we will get back to you</h4>
+        <h4 v-else class="green text-center">We appreciate you writing to us!</h4>
+        <hr />
       </b-col>
-      <b-col cols="6">
+      <b-col sm="12" md="6" offset-md="3">
         <div>
           <b-form @submit="onSubmit" @reset="onReset" v-if="show">
             <b-form-group id="input-group-2" label-for="input-2">
@@ -93,7 +95,7 @@
           <div v-show="this.show != true">
             <b-alert variant="success" show>Your message was received!</b-alert>
 
-            <b-card tag="message" class="mb-2">
+            <b-card class="mb-2">
               <b-card-text>
                 <p class="lead">{{this.form.message}}</p>
                 <p class="small user-details">

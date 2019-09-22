@@ -8,7 +8,7 @@
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-        <b-collapse id="nav-collapse" is-nav>
+        <b-collapse id="nav-collapse white" is-nav>
           <b-navbar-nav>
             <b-nav-item href="/">Home</b-nav-item>
             <b-nav-item-dropdown text="About">
@@ -46,7 +46,6 @@ export default {
 
 <style scoped>
 .green-nav {
-  color: white;
   background-color: #026939;
   padding: 0 !important;
 }
@@ -83,15 +82,5 @@ export default {
   background-repeat: no-repeat;
 }
 
-/* Dropdown */
-.nav-item .b-nav-dropdown .dropdown{
-  color: red !important;
-}
-#__BVID__14__BV_button_ {
-  color: red !important;
-}
 
-.nav-link .dropdown-toggle span {
-  color: red;
-}
 </style>

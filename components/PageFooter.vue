@@ -3,7 +3,7 @@
     <footer class="page-footer">
       <b-container>
         <b-row>
-          <b-col sm="12" md="4">
+          <b-col sm="12" md="4" class="mt-3">
             <b-row>
               <b-col offset="3" cols="6" class="footer-image"></b-col>
             </b-row>
@@ -14,7 +14,7 @@
               >We help accelerate agriculture transformation in Tanzania through agricultural development initiatives.</b-col>
             </b-row>
           </b-col>
-          <b-col sm="12" md="4">
+          <b-col sm="12" md="4" class="mt-3">
             <h3>Contact Us</h3>
             <b-row class="mt-3">
               <b-col cols="2">
@@ -35,7 +35,7 @@
               <b-col cols="10">info@britentz.org</b-col>
             </b-row>
           </b-col>
-          <b-col sm="12" md="4">
+          <b-col sm="12" md="4" class="mt-3">
             <h3>Social Links</h3>
             <b-row class="mt-3">
               <b-col cols="2">
@@ -88,7 +88,7 @@ export default {
 
 .footer-image {
   height: 5rem;
-  background-image: url("../static/img/logo.png");
+  background-image: url("../static/img/Logo.png");
   background-color: #f7941c;
   background-position: center;
   background-size: 9rem;

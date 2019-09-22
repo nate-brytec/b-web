@@ -17,21 +17,21 @@
       <b-carousel-slide
         caption="First slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
+        img-src="../static/img/footer.png"
       ></b-carousel-slide>
 
       <!-- Text slides with image -->
       <b-carousel-slide
         caption="Second slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
+        img-src="../static/img/footer.png"
       ></b-carousel-slide>
 
       <!-- Text slides with image -->
       <b-carousel-slide
         caption="Third slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
+        img-src="../static/img/footer.png"
       ></b-carousel-slide>
     </b-carousel>
   </div>
