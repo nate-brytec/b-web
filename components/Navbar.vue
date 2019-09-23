@@ -2,30 +2,19 @@
   <div class="mb-5">
     <b-navbar class="green-nav" toggleable="lg">
       <b-container>
-        <b-navbar-brand class="logo" href="/">
-          <!-- <img src="../static/img/Logo.png" alt="BRiTEN" width="150" /> -->
-        </b-navbar-brand>
+        <b-navbar-brand class="logo" href="/"></b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-        <b-collapse id="nav-collapse white" is-nav>
+        <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
             <b-nav-item href="/">Home</b-nav-item>
-            <b-nav-item-dropdown text="About">
-              <b-dropdown-item href="/about/history">Our Story</b-dropdown-item>
-              <b-dropdown-item href="/about/mission">Our Mission</b-dropdown-item>
-              <b-dropdown-item href="/about/vision">Our Vision</b-dropdown-item>
-              <b-dropdown-item href="/about/management">Our Management</b-dropdown-item>
-              <b-dropdown-item href="/about/team">Our Team</b-dropdown-item>
-            </b-nav-item-dropdown>
-            <b-nav-item-dropdown text="Projects" right>
-              <b-dropdown-item href="/projects/ihemi">IHEMI-LUDEWA</b-dropdown-item>
-              <b-dropdown-item href="/projects/simvc">SUKA</b-dropdown-item>
-              <b-dropdown-item href="/projects/simvc">SIM-VC</b-dropdown-item>
-            </b-nav-item-dropdown>
-            <b-nav-item href="/partners">Partners</b-nav-item>
-            <b-nav-item href="/media">Media</b-nav-item>
-            <b-nav-item href="/contact">Contact Us</b-nav-item>
+            <b-nav-item href="/about">About</b-nav-item>
+            <b-nav-item href="/team">Our Team</b-nav-item>
+            <b-nav-item href="/projects">Our Projects</b-nav-item>
+            <b-nav-item href="/partners">Our partners</b-nav-item>
+            <b-nav-item href="/media">Media Gallery</b-nav-item>
+            <b-nav-item href="/contact">Contact us</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>
@@ -36,10 +25,10 @@
 <script>
 export default {
   name: "navbar",
-  data(){
-    return{
-      nav : "nav-link"
-    }
+  data() {
+    return {
+      nav: "nav-link"
+    };
   }
 };
 </script>
@@ -81,6 +70,4 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
 }
-
-
 </style>

@@ -6,7 +6,6 @@
       id="carousel-1"
       :interval="3000"
       background="#ababab"
-      indicators
       controls
       img-width="1024"
       img-height="480"

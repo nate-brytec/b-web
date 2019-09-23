@@ -109,6 +109,11 @@
 import carousel from "../components/Carousel.vue";
 import testimonial from "../components/Testimonial.vue";
 export default {
+  head() {
+    return {
+      title: "BRITEN - Home"
+    }
+  },
   components: {
     carousel,
     testimonial
