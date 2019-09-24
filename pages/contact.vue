@@ -48,7 +48,7 @@
           <b-embed
             type="iframe"
             aspect="16by9"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1400.8160762526356!2d39.2379866657063!3d-6.756903955261195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2stz!4v1551693807825"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1655.91757014213!2d39.23776055940417!3d-6.756815341330629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4dda0c4d8caf%3A0xfd3ca3b164f36209!2sBRITEN!5e0!3m2!1sen!2stz!4v1569306066173!5m2!1sen!2stz"
             allowfullscreen
           ></b-embed>
         </div>

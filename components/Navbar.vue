@@ -13,7 +13,7 @@
             <b-nav-item href="/team">Our Team</b-nav-item>
             <b-nav-item href="/projects">Our Projects</b-nav-item>
             <b-nav-item href="/partners">Our partners</b-nav-item>
-            <b-nav-item href="/media">Media Gallery</b-nav-item>
+            <!-- <b-nav-item href="/media">Media Gallery</b-nav-item> -->
             <b-nav-item href="/contact">Contact us</b-nav-item>
           </b-navbar-nav>
         </b-collapse>

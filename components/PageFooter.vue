@@ -10,8 +10,8 @@
             <b-row class="mb-3">
               <b-col
                 cols="12"
-                class="text-center"
-              >We help accelerate agriculture transformation in Tanzania through agricultural development initiatives.</b-col>
+                class="text-center mt-2"
+              >We help accelerate agriculture transformation in Tanzania through agricultural development initiatives to increase productivity and improve access to inputs and finance for value chain actors.</b-col>
             </b-row>
           </b-col>
           <b-col sm="12" md="4" class="mt-3">
