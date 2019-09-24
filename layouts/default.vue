@@ -14,6 +14,17 @@ html {
     Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 0.72rem;
 }
+.green {
+  color: #026939;
+  font-weight: bold;
+}
+.orange {
+  color: #f7941c !important;
+}
+
+.no-bold {
+  font-weight: normal;
+}
 </style>
 
 <script>

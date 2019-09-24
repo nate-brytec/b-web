@@ -138,13 +138,6 @@ export default {
 .white {
   color: #fafafa;
 }
-.green {
-  color: #026939;
-  font-weight: bold;
-}
-.orange {
-  color: #f7941c !important;
-}
 
 .list-heading {
   background-color: #026939;
@@ -175,5 +168,8 @@ export default {
 
 .uppercase {
   text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-shadow: -2px 2px 4px #444;
 }
 </style>
