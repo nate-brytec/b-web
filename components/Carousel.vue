@@ -11,26 +11,22 @@
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
-      <!-- Text slides with image -->
-      <b-carousel-slide
-        caption="First slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="../static/img/footer.png"
-      ></b-carousel-slide>
-
-      <!-- Text slides with image -->
-      <b-carousel-slide
-        caption="Second slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="../static/img/footer.png"
-      ></b-carousel-slide>
-
-      <!-- Text slides with image -->
-      <b-carousel-slide
-        caption="Third slide"
-        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="../static/img/footer.png"
-      ></b-carousel-slide>
+      <div>
+        <b-carousel-slide img-src="../static/slider/third.png">
+          <h1 class="carousel-titile">BRITEN</h1>
+          <h3 class="carousel-text">Building Rural Incomes Through Entrepreneurship</h3>
+        </b-carousel-slide>
+      </div>
+      <div>
+        <b-carousel-slide img-src="../static/slider/fifth.png">
+          <h3 class="carousel-text">enhance farmer's agribusiness competitiveness</h3>
+        </b-carousel-slide>
+      </div>
+      <div>
+        <b-carousel-slide img-src="../static/slider/third.png">
+          <h3 class="carousel-text">Improve access to inputs and finance for value chain actors</h3>
+        </b-carousel-slide>
+      </div>
     </b-carousel>
   </div>
 </template>
@@ -53,3 +49,22 @@ export default {
   }
 };
 </script>
+
+<style >
+.carousel-logo {
+  padding: 1rem;
+  background-color: #f7941c;
+  height: 7rem;
+}
+.carousel-title {
+  font-weight: 700;
+  font-size: 6rem;
+  text-shadow: -3px 3px 8px #232323;
+}
+
+.carousel-text {
+  font-size: 2rem;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+</style>

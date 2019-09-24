@@ -112,7 +112,7 @@ export default {
   head() {
     return {
       title: "BRITEN - Home"
-    }
+    };
   },
   components: {
     carousel,
@@ -175,22 +175,5 @@ export default {
 
 .uppercase {
   text-transform: uppercase;
-}
-
-/* Custom dropdown styling */
-.dropdown-toggle {
-  background-color: red;
-  border-color: #fff;
-  border-style: solid;
-  border-top: none;
-  border-right: none;
-  border-left: none;
-}
-
-.dropdown-menu {
-  background-color: #000;
-}
-.dropdown-menu > li > a {
-  color: yellow;
 }
 </style>
