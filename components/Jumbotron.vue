@@ -13,7 +13,7 @@ export default {};
 <style>
 .jumbo {
   color: #fafafa;
-  background-image: url("../static/img/maize.png");
+  background-image: url("../static/img/maize-blur.jpg");
   background-size: contain;
   background-position: center;
 }
