@@ -3,7 +3,7 @@
     <div class="person mt-3" v-for="member in team" :key="member.id">
       <b-row>
         <b-col sm="12" md="3" class="text-right">
-          <b-img rounded src="../static/img/placeholder.png" fluid alt="person"></b-img>
+          <b-img class="person-img" rounded src="../static/img/placeholder.png" fluid alt="person"></b-img>
         </b-col>
         <b-col sm="12" md="9" class="mt-4">
           <h2 class="display-5 green">{{ member.name }}</h2>
@@ -172,5 +172,9 @@ export default {
 
 .person:hover {
   box-shadow: 1px 1px 8px #cacaca;
+}
+
+.person-img {
+  padding: 1.4rem;  
 }
 </style>
