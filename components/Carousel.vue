@@ -12,18 +12,18 @@
       @sliding-end="onSlideEnd"
     >
       <div>
-        <b-carousel-slide img-src="../static/slider/third.png">
+        <b-carousel-slide img-src="../static/slider/third.jpg">
           <h1 class="carousel-titile">BRITEN</h1>
           <h3 class="carousel-text">Building Rural Incomes Through Entrepreneurship</h3>
         </b-carousel-slide>
       </div>
       <div>
-        <b-carousel-slide img-src="../static/slider/fifth.png">
+        <b-carousel-slide img-src="../static/slider/fifth.jpg">
           <h3 class="carousel-text">enhance farmer's agribusiness competitiveness</h3>
         </b-carousel-slide>
       </div>
       <div>
-        <b-carousel-slide img-src="../static/slider/third.png">
+        <b-carousel-slide img-src="../static/slider/fourth.jpg">
           <h3 class="carousel-text">Improve access to inputs and finance for value chain actors</h3>
         </b-carousel-slide>
       </div>

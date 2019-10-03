@@ -15,13 +15,13 @@
       <b-carousel-slide class="slide"
         caption="Elias - Farmer"
         text="'My motivation to start Agro dealer business started after the training I went through. I had to take my time after the training and ask the trainer how I was going to achieve this goal and for sure he connected me with the right people'"
-        img-src="../static/img/footer.png"
+        img-src="../static/img/slider/one.jpg"
       ></b-carousel-slide>
 
       <b-carousel-slide class="slide"
         caption="Daimundi Kilatu - Farmer"
         text="'It was my first time to sell and get that much amount of money. Like other farmers, I will never again sell my maize to middle salesmen, instead I will be selling collectively and by weight instead of volume.'"
-        img-src="../static/img/footer.png"
+        img-src="../static/img/slider/second.jpg"
       ></b-carousel-slide>
     </b-carousel>
   </div>

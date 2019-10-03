@@ -10,6 +10,10 @@
           <h5 class="orange">{{ member.title }}</h5>
           <hr />
           <p class="lead">{{ member.description }}</p>
+          <div v-for="item in team.social" :key="item.name">
+            <p>{{item.name}}</p>
+          </div>
+
           <div class="social-links">
             <b-link to="www.twitter.com">
               <b-img width="40" src="../static/icons/social/twitter.png" fluid alt="Instagram"></b-img>
@@ -35,42 +39,102 @@ export default {
           name: "Josephine Miingi Kaiza",
           title: "CEO & Founder",
           description:
-            "Josephine Miingi Kaiza is an experienced international consultant who has worked across Kenya, Tanzania, and Malawi for international organizations managing programs funded by USAID , AGRA, WFP, AFAP, and Comic Relief."
+            "Josephine Miingi Kaiza is an experienced international consultant who has worked across Kenya, Tanzania, and Malawi for international organizations managing programs funded by USAID , AGRA, WFP, AFAP, and Comic Relief.",
+          social: [
+            { name: "twitter", show: true, link: `www.twitter.com/${name}` },
+            {
+              name: "instagram",
+              show: true,
+              link: `www.instagram.com/${name}`
+            },
+            { name: "facebook", show: true, link: `www.facebook.com/${name}` },
+            { name: "linkedin", show: true, link: `www.linkedin.com/${name}` }
+          ]
         },
         {
           id: 2,
           name: "Godfrey Bwana",
           title: "Head of Programs",
           description:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, earum alias delectus, reiciendis cumque harum possimus mollitia velit laborum praesentium id vitae officiis et minus vel nisi eum iure nihil maiores perferendis dolorem. Quaerat sequi aliquid suscipit asperiores quae expedita dolorem, eveniet ducimus rerum tenetur."
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, earum alias delectus, reiciendis cumque harum possimus mollitia velit laborum praesentium id vitae officiis et minus vel nisi eum iure nihil maiores perferendis dolorem. Quaerat sequi aliquid suscipit asperiores quae expedita dolorem, eveniet ducimus rerum tenetur.",
+          social: [
+            { name: "twitter", show: true, link: `www.twitter.com/${name}` },
+            {
+              name: "instagram",
+              show: true,
+              link: `www.instagram.com/${name}`
+            },
+            { name: "facebook", show: true, link: `www.facebook.com/${name}` },
+            { name: "linkedin", show: true, link: `www.linkedin.com/${name}` }
+          ]
         },
         {
           id: 3,
           name: "Fauzia Ali Matano",
           title: "Project Manager",
           description:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, earum alias delectus, reiciendis cumque harum possimus mollitia velit laborum praesentium id vitae officiis et minus vel nisi eum iure nihil maiores perferendis dolorem. Quaerat sequi aliquid suscipit asperiores quae expedita dolorem, eveniet ducimus rerum tenetur."
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, earum alias delectus, reiciendis cumque harum possimus mollitia velit laborum praesentium id vitae officiis et minus vel nisi eum iure nihil maiores perferendis dolorem. Quaerat sequi aliquid suscipit asperiores quae expedita dolorem, eveniet ducimus rerum tenetur.",
+          social: [
+            { name: "twitter", show: true, link: `www.twitter.com/${name}` },
+            {
+              name: "instagram",
+              show: true,
+              link: `www.instagram.com/${name}`
+            },
+            { name: "facebook", show: true, link: `www.facebook.com/${name}` },
+            { name: "linkedin", show: true, link: `www.linkedin.com/${name}` }
+          ]
         },
         {
           id: 4,
           name: "Caroline Frank",
           title: "Administration and Human Resource",
           description:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, earum alias delectus, reiciendis cumque harum possimus mollitia velit laborum praesentium id vitae officiis et minus vel nisi eum iure nihil maiores perferendis dolorem. Quaerat sequi aliquid suscipit asperiores quae expedita dolorem, eveniet ducimus rerum tenetur."
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, earum alias delectus, reiciendis cumque harum possimus mollitia velit laborum praesentium id vitae officiis et minus vel nisi eum iure nihil maiores perferendis dolorem. Quaerat sequi aliquid suscipit asperiores quae expedita dolorem, eveniet ducimus rerum tenetur.",
+          social: [
+            { name: "twitter", show: true, link: `www.twitter.com/${name}` },
+            {
+              name: "instagram",
+              show: true,
+              link: `www.instagram.com/${name}`
+            },
+            { name: "facebook", show: true, link: `www.facebook.com/${name}` },
+            { name: "linkedin", show: true, link: `www.linkedin.com/${name}` }
+          ]
         },
         {
           id: 5,
           name: "Valentine Kimwaga",
           title: "Administration",
           description:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, earum alias delectus, reiciendis cumque harum possimus mollitia velit laborum praesentium id vitae officiis et minus vel nisi eum iure nihil maiores perferendis dolorem. Quaerat sequi aliquid suscipit asperiores quae expedita dolorem, eveniet ducimus rerum tenetur."
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, earum alias delectus, reiciendis cumque harum possimus mollitia velit laborum praesentium id vitae officiis et minus vel nisi eum iure nihil maiores perferendis dolorem. Quaerat sequi aliquid suscipit asperiores quae expedita dolorem, eveniet ducimus rerum tenetur.",
+          social: [
+            { name: "twitter", show: true, link: `www.twitter.com/${name}` },
+            {
+              name: "instagram",
+              show: true,
+              link: `www.instagram.com/${name}`
+            },
+            { name: "facebook", show: true, link: `www.facebook.com/${name}` },
+            { name: "linkedin", show: true, link: `www.linkedin.com/${name}` }
+          ]
         },
         {
           id: 6,
           name: "Jackline Massam",
           title: "Finance Manager",
           description:
-            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, earum alias delectus, reiciendis cumque harum possimus mollitia velit laborum praesentium id vitae officiis et minus vel nisi eum iure nihil maiores perferendis dolorem. Quaerat sequi aliquid suscipit asperiores quae expedita dolorem, eveniet ducimus rerum tenetur."
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, earum alias delectus, reiciendis cumque harum possimus mollitia velit laborum praesentium id vitae officiis et minus vel nisi eum iure nihil maiores perferendis dolorem. Quaerat sequi aliquid suscipit asperiores quae expedita dolorem, eveniet ducimus rerum tenetur.",
+          social: [
+            { name: "twitter", show: true, link: `www.twitter.com/${name}` },
+            {
+              name: "instagram",
+              show: true,
+              link: `www.instagram.com/${name}`
+            },
+            { name: "facebook", show: true, link: `www.facebook.com/${name}` },
+            { name: "linkedin", show: true, link: `www.linkedin.com/${name}` }
+          ]
         },
         {
           id: 7,
@@ -107,6 +171,6 @@ export default {
 }
 
 .person:hover {
-  box-shadow: 1px 1px 8px #dadada;
+  box-shadow: 1px 1px 8px #cacaca;
 }
 </style>

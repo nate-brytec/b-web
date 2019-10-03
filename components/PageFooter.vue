@@ -41,19 +41,27 @@
               <b-col cols="2">
                 <b-img width="30" src="../static/icons/social/linkedin.png" fluid alt="linkedin"></b-img>
               </b-col>
-              <b-col cols="10">LinkedIn</b-col>
+              <b-col cols="10"> <p class="lead">LinkedIn</p> </b-col>
             </b-row>
             <b-row class="mt-3">
               <b-col cols="2">
                 <b-img width="30" src="../static/icons/social/instagram.png" fluid alt="Instagram"></b-img>
               </b-col>
-              <b-col cols="10">Instagram</b-col>
+              <b-col cols="10"> <p class="lead">Instagram</p> </b-col>
             </b-row>
             <b-row class="mt-3">
               <b-col cols="2">
-                <b-img width="30" src="../static/icons/social/youtube.png" fluid alt="YouTube"></b-img>
+                <b-img width="30" src="../static/icons/social/twitter.png" fluid alt="Twitter"></b-img>
               </b-col>
-              <b-col cols="10">YouTube</b-col>
+              <b-col cols="10"> <p class="lead">Twitter</p> </b-col>
+            </b-row>
+            <b-row class="mt-3">
+              <b-col cols="2">
+                <b-link to="https://youtu.be/cS3v3DuhWqE">
+                  <b-img width="30" src="../static/icons/social/youtube.png" fluid alt="YouTube"></b-img>
+                </b-link>
+              </b-col>
+              <b-col cols="10"> <p class="lead">Youtube</p></b-col>
             </b-row>
           </b-col>
         </b-row>
@@ -80,7 +88,7 @@ export default {
 .page-footer {
   padding: 2.5rem;
   color: #fafafa;
-  background-image: url("../static/img/footer.png");
+  background-image: url("../static/img/footer.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
