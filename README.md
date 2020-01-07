@@ -15,8 +15,8 @@ I am about to carry out version 1 update to version 1.0.1, which will mainly dea
 The website is right now still in version one (v 1) and it has  been for a while. What version 2 requires, is a way to convert the website into a web application. The two main things I wish to implement in the version 2 (v 2) of the website are:
 1.  Allow user feedback; collect visitors comments from the "Contact Us" page
 2.  Create a mini-CMS to allow for 
-  * Blogging
-  * File Uploading
+- Blogging
+- File Uploading
 
 ## Build Setup
 
