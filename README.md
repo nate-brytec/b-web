@@ -5,10 +5,10 @@ This is the official website for BRiTEN I have built using the NuxtJS framework.
 I did not use the version naming convention when I was developing this website, so right now I will consider the current website to be Version 1.0
 
 I am about to carry out version 1 update to version 1.0.1, which will mainly deal with two main things:
-> Add media page to the website
-> Update the projects page
-> Update the staff bio page
-> Add social media links to the website
+- Add media page to the website
+- Update the projects page
+- Update the staff bio page
+- Add social media links to the website
 
 
 ## Version 2 Update
